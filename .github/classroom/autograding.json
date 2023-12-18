@@ -1,0 +1,235 @@
+{
+    "tests": [
+      {
+        "name": "AddTwo test 1: Args (3, 5)",
+        "setup": "javac AddTwo.java",
+        "run": "java AddTwo 3 5",
+        "input": "",
+        "output": "3 + 5 = 8",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 2
+      },
+      {
+        "name": "AddTwo test 2: Args (9281, 719)",
+        "setup": "javac AddTwo.java",
+        "run": "java AddTwo 9281 719",
+        "input": "",
+        "output": "9281 + 719 = 10000",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 2
+      },
+      {
+        "name": "AddTwo test 3: Args (2, 7)",
+        "setup": "javac AddTwo.java",
+        "run": "java AddTwo 2 7",
+        "input": "",
+        "output": "2 + 7 = 9",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 2
+      },
+      {
+        "name": "AddTwo test 4: Args (10, 3)",
+        "setup": "javac AddTwo.java",
+        "run": "java AddTwo 10 3",
+        "input": "",
+        "output": "10 + 3 = 13",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 2
+      },
+      {
+        "name": "AddTwo test 5: Args (0, 0)",
+        "setup": "javac AddTwo.java",
+        "run": "java AddTwo 0 0",
+        "input": "",
+        "output": "0 + 0 = 0",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 2
+      },
+      {
+        "name": "Coins test 1: Args (132)",
+        "setup": "javac Coins.java",
+        "run": "java Coins 132",
+        "input": "",
+        "output": "Use 5 quarters and 7 cents",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Coins test 2: Args (50)",
+        "setup": "javac Coins.java",
+        "run": "java Coins 50",
+        "input": "",
+        "output": "Use 2 quarters and 0 cents",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Coins test 3: Args (28)",
+        "setup": "javac Coins.java",
+        "run": "java Coins 28",
+        "input": "",
+        "output": "Use 1 quarters and 3 cents",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Coins test 4: Args (0)",
+        "setup": "javac Coins.java",
+        "run": "java Coins 0",
+        "input": "",
+        "output": "Use 0 quarters and 0 cents",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Coins test 5: Args (100)",
+        "setup": "javac Coins.java",
+        "run": "java Coins 100",
+        "input": "",
+        "output": "Use 4 quarters and 0 cents",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "LinearEq test 1: Args (1, 2, 1)",
+        "setup": "javac LinearEq.java",
+        "run": "java LinearEq 1 2 1",
+        "input": "",
+        "output": "1.0 * x + 2.0 = 1.0\nx = -1.0",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "LinearEq test 2: Args (3, 1, 4)",
+        "setup": "javac LinearEq.java",
+        "run": "java LinearEq 3 1 4",
+        "input": "",
+        "output": "3.0 * x + 1.0 = 4.0\nx = 1.0",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "LinearEq test 3: Args (2, 3, 8)",
+        "setup": "javac LinearEq.java",
+        "run": "java LinearEq 2 3 8",
+        "input": "",
+        "output": "2.0 * x + 3.0 = 8.0\nx = 2.5",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "LinearEq test 4: Args (4, 7, 10)",
+        "setup": "javac LinearEq.java",
+        "run": "java LinearEq 4 7 10",
+        "input": "",
+        "output": "4.0 * x + 7.0 = 10.0\nx = 0.75",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "LinearEq test 5: Args (1, 3, -2)",
+        "setup": "javac LinearEq.java",
+        "run": "java LinearEq 1 3 -2",
+        "input": "",
+        "output": "1.0 * x + 3.0 = -2.0\nx = -5.0",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Triangle test 1: Args (3, 4, 5)",
+        "setup": "javac Triangle.java",
+        "run": "java Triangle 3 4 5",
+        "input": "",
+        "output": "3, 4, 5: true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Triangle test 2: Args (2, 3, 6)",
+        "setup": "javac Triangle.java",
+        "run": "java Triangle 2 3 6",
+        "input": "",
+        "output": "2, 3, 6: false",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Triangle test 3: Args (7, 10, 5)",
+        "setup": "javac Triangle.java",
+        "run": "java Triangle 7 10 5",
+        "input": "",
+        "output": "7, 10, 5: true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Triangle test 4: Args (1, 1, 1)",
+        "setup": "javac Triangle.java",
+        "run": "java Triangle 1 1 1",
+        "input": "",
+        "output": "1, 1, 1: true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "Triangle test 5: Args (5, 12, 13)",
+        "setup": "javac Triangle.java",
+        "run": "java Triangle 5 12 13",
+        "input": "",
+        "output": "5, 12, 13: true",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 4
+      },
+      {
+        "name": "GenThree test: Args (10, 15)",
+        "setup": "javac GenThreeTest.java",
+        "run": "java GenThreeTest 10 15",
+        "input": "",
+        "output": "All tests passed!",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "GenThree test: Args (90, 200)",
+        "setup": "javac GenThreeTest.java",
+        "run": "java GenThreeTest 90 200",
+        "input": "",
+        "output": "All tests passed!",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      },
+      {
+        "name": "GenThree test: Args (1,1000)",
+        "setup": "javac GenThreeTest.java",
+        "run": "java GenThreeTest 1 1000",
+        "input": "",
+        "output": "All tests passed!",
+        "comparison": "exact",
+        "timeout": 10,
+        "points": 10
+      }
+    ]
+  }
+  
