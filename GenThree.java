@@ -1,4 +1,4 @@
-public class Gen3 {
+public class GenThree {
 	public static void main(String[] asdf) {
 		int a = Integer.parseInt(asdf[0]);
 		int b = Integer.parseInt(asdf[1]);
